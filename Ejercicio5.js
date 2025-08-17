@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 
 rl.question("Ingrese el precio del producto seleccionado:" , (precio) => {
     const precioFloat = parseFloat(precio);
-    const iva = precio * 0.13;
+    const iva = precioFloat * 0.13;
     const precioTotal = precioFloat + iva;
     console.log(`El precio del producto es: $${precioFloat}`);
     console.log(`El IVA aplicado es: $${iva}`);
