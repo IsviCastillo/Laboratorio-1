@@ -5,7 +5,7 @@
 import readline from 'readline';
 const rl = readline.createInterface({
     input: process.stdin,
-    output: process.stdout
+    output: process.stdout,
 }); 
 
 rl.question("Ingrese el ancho del rectangulo que desea calcular: ", (ancho) =>{
